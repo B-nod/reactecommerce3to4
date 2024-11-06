@@ -1,0 +1,11 @@
+.btn{
+    
+    padding: 15px 20px;
+    background-color: darkblue;
+    color:white;
+    transition: all 0.5s;
+    border: none
+}
+.btn:hover{
+    transform:translateY(-10px)
+}
