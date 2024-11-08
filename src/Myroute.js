@@ -8,6 +8,7 @@ import Productpage from './pages/Productpage'
 import ProductDetail from './pages/ProductDetail'
 import Cart from './pages/Cart'
 import Register from './pages/Register'
+import Show from './context/Show'
 
 const Myroute = () => {
   return (
@@ -23,6 +24,7 @@ const Myroute = () => {
             <Route path='productdetail/:productId' element={<ProductDetail/>}/>
             <Route path='cart' element={<Cart/>}/>
             <Route path='/register' element={<Register/>}/>
+            <Route path='context' element={<Show/>}/>
 
             </Route>
         </Routes>
